@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShrekSec, LLC | Red Team, Hardware, Reverse Engineering &amp; Vulnerability Research</title>
+  <meta name="description" content="ShrekSec, LLC is a security consultancy offering red team penetration testing, hardware evaluation, reverse engineering, and vulnerability research. Security has layers.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%237bd34a'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top" style="text-decoration:none">
+      <!-- generic onion-layers mark -->
+      <svg viewBox="0 0 32 32" fill="none" stroke="#7bd34a" stroke-width="1.8" aria-hidden="true">
+        <path d="M16 3c5 4 10 8 10 14a10 10 0 0 1-20 0C6 11 11 7 16 3Z"/>
+        <path d="M16 3c-2 5-4 9-4 14s2 9 4 10c2-1 4-5 4-10S18 8 16 3Z"/>
+        <path d="M8 18c3 2 13 2 16 0" />
+      </svg>
+      ShrekSec
+    </a>
+    <ul>
+      <li><a href="#services">services</a></li>
+      <li><a href="#process">process</a></li>
+      <li><a href="#about">about</a></li>
+      <li><a href="#disclosure">disclosure</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="top">
+<div class="wrap">
+
+  <div class="hero">
+    <div class="term">
+      <div class="term-bar"><i></i><i></i><i></i></div>
+      <div class="term-body">
+        <div><span class="p">ops@shreksec:~$</span> whoami</div>
+        <div class="o">shreksec-llc</div>
+        <div><span class="p">ops@shreksec:~$</span> ./engage --scope target.corp</div>
+        <div class="o">offensive security consultancy // est. 2026</div>
+        <div><span class="p">ops@shreksec:~$</span> <span class="cursor"></span></div>
+      </div>
+    </div>
+    <h1>We attack your systems <em>first</em>, so real attackers don't get the chance.</h1>
+    <p class="lead">ShrekSec, LLC is a security consultancy delivering red team operations, hardware evaluation, reverse engineering, and vulnerability research. Security has layers, and we test every one of them.</p>
+    <div class="btns">
+      <a class="btn solid" href="#contact">Start an engagement</a>
+      <a class="btn" href="#services">What we do</a>
+    </div>
+  </div>
+
+  <section id="services">
+    <div class="eyebrow">// 01 services</div>
+    <h2>What we do</h2>
+    <p class="sub">Each engagement is scoped to your threat model and ends with findings you can act on, not a 300-page PDF of noise.</p>
+    <div class="grid">
+      <div class="card">
+        <div class="ico">🎯</div>
+        <h3>Red Team Pen Testing</h3>
+        <p>Goal-driven adversary simulation against your people, process, and technology.</p>
+        <ul>
+          <li>Network and Active Directory compromise</li>
+          <li>Web, API, and cloud assessments</li>
+          <li>Social engineering and phishing</li>
+          <li>Physical and wireless testing</li>
+          <li>Detection and response validation</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="ico">🔌</div>
+        <h3>Hardware Evaluation</h3>
+        <p>Security review of devices, from IoT gadgets to embedded and industrial gear.</p>
+        <ul>
+          <li>UART, JTAG, and SWD debug interface analysis</li>
+          <li>Firmware extraction and analysis</li>
+          <li>Secure boot and storage review</li>
+          <li>Bus sniffing and fault-injection feasibility</li>
+          <li>Radio protocols (BLE, Wi-Fi, sub-GHz)</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="ico">🔬</div>
+        <h3>Reverse Engineering</h3>
+        <p>We take apart binaries and protocols to learn what they really do.</p>
+        <ul>
+          <li>Native and firmware binary analysis</li>
+          <li>Protocol and file-format reversing</li>
+          <li>Malware and implant triage</li>
+          <li>Interoperability and legacy-system analysis</li>
+          <li>Patch diffing</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="ico">🐞</div>
+        <h3>Vulnerability Services</h3>
+        <p>Finding, proving, and helping fix the bugs that matter.</p>
+        <ul>
+          <li>Vulnerability research and fuzzing</li>
+          <li>Source code and binary audits</li>
+          <li>Exploitability and impact assessment</li>
+          <li>Proof-of-concept development</li>
+          <li>Coordinated disclosure support</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="process">
+    <div class="eyebrow">// 02 engagement process</div>
+    <h2>How an engagement works</h2>
+    <p class="sub">Predictable, transparent, and safe. No surprises on your production systems.</p>
+    <div class="steps">
+      <div class="step"><div><h3>Scope &amp; Rules of Engagement</h3><p>We define targets, objectives, constraints, and contacts, backed by a signed agreement and written authorization before any testing begins.</p></div></div>
+      <div class="step"><div><h3>Recon &amp; Threat Modeling</h3><p>We map the attack surface and prioritize paths based on what a real adversary would pursue against you.</p></div></div>
+      <div class="step"><div><h3>Testing &amp; Exploitation</h3><p>Hands-on, expert-driven testing with regular check-ins. Critical findings are reported immediately, not at the end.</p></div></div>
+      <div class="step"><div><h3>Reporting &amp; Debrief</h3><p>Clear findings with evidence, risk ratings, and remediation guidance, plus an executive summary and a live walkthrough.</p></div></div>
+      <div class="step"><div><h3>Retest</h3><p>After you fix, we verify. A retest to confirm remediation is part of how we close the loop.</p></div></div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="eyebrow">// 03 about</div>
+    <h2>About ShrekSec</h2>
+    <div class="two">
+      <div>
+        <p>ShrekSec, LLC is a small, senior-led consultancy. The name is a joke; the work isn't. Every engagement is run by practitioners with hands-on offensive experience, not handed to a junior team after the sales call.</p>
+        <p>We keep our client list small so we can go deep, and we write reports that engineers and executives can both use.</p>
+      </div>
+      <div>
+        <p class="mono" style="color:var(--green)">$ cat principles.txt</p>
+        <ul>
+          <li>Authorized testing only, always in writing</li>
+          <li>Client data is confidential and handled minimally</li>
+          <li>Findings are evidence-backed and reproducible</li>
+          <li>Honest scoping, no inflated severity</li>
+        </ul>
+        <span class="badge">Red Team</span><span class="badge">Embedded</span><span class="badge">Firmware</span><span class="badge">RE</span><span class="badge">Vuln Research</span>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="disclosure">
+    <div class="eyebrow">// 04 disclosure policy</div>
+    <h2>Responsible disclosure</h2>
+    <div class="two">
+      <div>
+        <p>If we find a vulnerability in a product or service during independent research, we follow coordinated disclosure: we notify the vendor privately, share technical details, and allow a reasonable remediation window (default 90 days) before publishing.</p>
+        <p>Found something in our own site or infrastructure? Please tell us. Send details to the address below, encrypted with our PGP key if possible. We will acknowledge reports promptly and will not pursue good-faith researchers acting within reasonable limits.</p>
+      </div>
+      <div>
+        <p>Our <a href="/.well-known/security.txt">security.txt</a> is published at the standard location.</p>
+        <p class="note">Client engagement findings are confidential and are never disclosed without the client's written consent.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="eyebrow">// 05 contact</div>
+    <h2>Let's talk</h2>
+    <p class="sub">Tell us what you need tested and we'll reply with a scoping call and quote.</p>
+    <div class="two">
+      <div>
+        <div class="btns" style="margin-top:0">
+          <a class="btn solid" href="mailto:contact@shreksec.com?subject=ShrekSec%20engagement%20inquiry">contact@shreksec.com</a>
+          <a class="btn" href="pgp.asc" download>Download PGP key</a>
+        </div>
+        <p class="mono" style="font-size:.85rem;color:var(--muted);margin-top:18px">PGP fingerprint:<br>64BD 62BF 36CA 8F10 9100&nbsp;&nbsp;C1E4 DC21 E081 8C4C DE25</p>
+      </div>
+      <div>
+        <pre class="key">-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mDMEasfS2BYJKwYBBAHaRw8BAQdAsuSzLoGCSmwRvGxn9JLbQrzLG0FtNoOgUce2
+fjQHrw+0JFNocmVrU2VjLCBMTEMgPGNvbnRhY3RAc2hyZWtzZWMuY29tPoiWBBMW
+CAA+FiEEZL1ivzbKjxCRAMHk3CHggYxM3iUFAmrH0tgCGwMFCQPCZwAFCwkIBwIG
+FQoJCAsCBBYCAwECHgECF4AACgkQ3CHggYxM3iVD0AEAj8Vu5jCtsJk9pZVoiL6p
+joGrkblSEbecV/RYuUEVe+ABAI7WUrhQeH9ozx+QOmc8u/cfzydpBRCSTTpm1XaX
+4moEuDgEasfS2BIKKwYBBAGXVQEFAQEHQDwTjdZdv6rm+r2RLpGeyFoywycVFFGp
+QW2mxw9Jt24VAwEIB4h+BBgWCAAmFiEEZL1ivzbKjxCRAMHk3CHggYxM3iUFAmrH
+0tgCGwwFCQPCZwAACgkQ3CHggYxM3iXdZQD/S0awoXQOtzRAR6wB2aiJGJFjDEUz
+aR/vM7zbYikPaJAA/085BbdpS/bUDCAPoTZtP2Y1CkVTNg9k/VSxmiLkWO8L
+=awHj
+-----END PGP PUBLIC KEY BLOCK-----</pre>
+      </div>
+    </div>
+  </section>
+
+</div>
+</main>
+
+<footer>
+  <div class="wrap">&copy; <span id="yr">2026</span> ShrekSec, LLC. All testing is authorized, scoped, and contracted.</div>
+</footer>
+
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
